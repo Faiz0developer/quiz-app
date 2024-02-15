@@ -1,8 +1,8 @@
 {
   "env": {
-    "CONNECTION_STRING": "mongodb+srv://faizansiddiqui:Bismillah@mycluster.zsttz8l.mongodb.net/workshopdb?retryWrites=true&w=majority",
-    "PORT": 3000,
-    "SECRET_KEY":"keepsecretmythissecretkey"
+    "CONNECTION_STRING": "<MongodbString>",
+    "PORT": "<PORT>",
+    "SECRET_KEY":"<SECRETKEY>"
   },
   "watch": ["src"],
   "ext": "ts,json",
