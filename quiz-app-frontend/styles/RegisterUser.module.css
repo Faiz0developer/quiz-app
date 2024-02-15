@@ -1,0 +1,12 @@
+.registerSuccesfull{
+    animation: showHide 2s ease;
+}
+
+@keyframes showHide{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
