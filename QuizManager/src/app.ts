@@ -23,7 +23,7 @@ const connectionString = process.env.CONNECTION_STRING || "";
 
 app.use(express.json());
 
-app.use(cors({ origin: "https://quiz-app-backend-seven.vercel.app/", credentials: true }));
+app.use(cors({ origin: "https://quiz-app-frontend-lovat.vercel.app", credentials: true }));
 
 declare global {
   namespace Express {
